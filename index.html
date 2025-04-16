@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Offline PDF Filler</title>
+</head>
+<body>
+  <h2>PDF Form Filler</h2>
+  <form id="pdf-form">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+
+    <button type="submit">Generate PDF</button>
+  </form>
+
+  <!-- Correct PDF-lib script -->
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="javascript.js"></script>
+</body>
+</html>
